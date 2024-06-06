@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: blue;
+    font-size: 92px;
+    background-color: aqua;
+    font-style: oblique;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize; 
+    text-decoration: underline;
+}
+
+.bg{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(https://img.freepik.com/fotos-gratis/uma-pintura-de-um-lago-de-montanha-com-uma-montanha-ao-fundo_188544-9126.jpg);
+    background-attachment: fixed; /* faz com que a imagem fique no local fixo e conforme vamos scrolando o conteudo fica em cima da imagem */
+
+    background-size: cover; /* é usado para ajustar a imagem que está dentro de alguma coisa */
+}
+
+p{
+    text-indent: 20px; /* Recuo dado na primeira linha do texto */
+    text-align: justify; /* para deixar o texto alinhado de acordo com a abnt */
+    font-size: 16px; /* tamanho da fonte */
+}
