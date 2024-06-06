@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <main>
+        <form><!-- Tag para demonstrar que é a área de um formulário -->
+            <div>
+                <label for="texto">Nome:</label>
+                <input type="text" name="nome" id="texto">
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+            <div>
+                <label for="qualquer">Número</label>
+                <input type="number" id="qualquer" name="qualquer">
+            </div>
+            <div>
+                <label for="upload">Escolha um arquivo:</label>
+                <input type="file" id="upload" name="upload">
+            </div>
+            <div>
+                <label for="url">url:</label>
+                <input type="url" id="url" name="url">
+            </div>
+            <div>
+                <label for="color">Escolha uma cor:</label>
+                <input type="color" id="color" name="color">
+            </div>
+            <div>
+                <label for="range">Qual o seu range?</label>
+                <input type="range" id="range" name="range">
+            </div>
+            <div>
+                <label for="checkbox">Está tudo certo?</label>
+                <input type="checkbox" id="checkbox" name="checkbox"> <!-- deixa marcar mais de uma opção -->
+            </div>
+            <div>
+                <label for="radio">Está tudo certo?</label>
+                <input type="radio" id="radio" name="radio"><!-- Não deixa marcar mais de uma opção -->
+            </div>
+            <div>
+                <label for="reset">Está tudo certo?</label>
+                <input type="reset" id="reset" name="reset" value="Limpar"> <!-- input de botão resete, é usado para resetar tudo o que foi colocado no formulário, ele já vem com um nome definido, mas podemos alterar o nome do botão através do atributo value="" -->
+            </div>
+
+        </form>
+    </main>
+    
+</body>
+</html>
