@@ -7,7 +7,7 @@
 </head>
 <body>
     <main>
-        <form><!-- Tag para demonstrar que é a área de um formulário -->
+        <form action="" method=""><!-- Tag para demonstrar que é a área de um formulário -->
             <div>
                 <label for="texto">Nome:</label>
                 <input type="text" name="nome" id="texto">
@@ -57,9 +57,22 @@
                 <input type="radio" id="radio" name="radio"><!-- Não deixa marcar mais de uma opção -->
             </div>
             <div>
-                <label for="reset">Está tudo certo?</label>
                 <input type="reset" id="reset" name="reset" value="Limpar"> <!-- input de botão resete, é usado para resetar tudo o que foi colocado no formulário, ele já vem com um nome definido, mas podemos alterar o nome do botão através do atributo value="" -->
             </div>
+            <div>
+                <input type="submit" value="receba" > 
+            </div>
+
+            <textarea name="bio" id="bio" cols="30" rows="30" placeholder="Fale sobre você!"></textarea>
+
+            <select name="selecione" id="selecione">
+                <option value="" disabled selected>Selecione uma das opções</option>
+                <option value="receita">Receita</option>
+                <option value="despesa">Despesa</option>
+                <option value="transferencia">Transferência</option>
+            </select>
+
+
 
         </form>
     </main>
