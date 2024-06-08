@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.input-group{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.page-content{
+    height: 100vh;
+    display: grid;
+}
+
+main{
+    grid-area: title;
+}
+
+aside{
+    grid-area: login;
+}
+
+footer{
+    grid-area: footer;
+    background-color: aqua;
+}
+
+
+@media screen and (min-width: 1024px) { 
+    .page-content{
+        display: grid;
+        grid-template-areas: 
+        "title title title title login"
+        "title title title title login"
+        "title title title title login"
+        "footer footer footer footer footer"
+        ;
+    }
+}
+
