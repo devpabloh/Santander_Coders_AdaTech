@@ -22,10 +22,12 @@
         </aside>
 
         <main>
-            <a href="index.html">
-                <i class="fa-solid fa-angle-left"></i>
-            </a>
-            <h2>Nova <span>entidade</span></h2>
+            <header>
+                <a href="index.html">
+                    <i class="fa-solid fa-angle-left"></i>
+                </a>
+                <h2>Nova <span>entidade</span></h2>
+            </header>
             <form>
                 <label for="input-name">Nome:</label>
                 <input type="text" id="input-name">
@@ -33,10 +35,13 @@
                 <label for="input-field">Campo de atuação:</label>
                 <input type="text" id="input-field">
 
-                <label for="input-points">Pontos de coleta:</label>
-                <input type="text" id="input-points">
-
-                <i class="fa-solid fa-circle-plus"></i>
+                <div class="points">
+                    <label for="input-points">Pontos de coleta:</label>
+                    <input type="text" id="input-points">
+                    <button>
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </button>
+                </div>
             </form>
 
             <div class="actions">
