@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/app.css"
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/navbar/navbar";
+
 
 
 
@@ -10,7 +11,7 @@ class App extends React.Component {
   render(){ // método responsável por renderizar o conteúdo HTML do nosso componente render(){}
 
     return (
-      <Navbar />
+      <Navbar/>
     )
   }
 }

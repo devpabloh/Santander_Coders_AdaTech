@@ -1,5 +1,6 @@
 import React from "react"
-import foguete from "../../assets/images/foguete"
+import foguete from "../../assets/images/foguete.png"
+import "../navbar/style.css"
 
 class Navbar extends React.Component{
     render(){
