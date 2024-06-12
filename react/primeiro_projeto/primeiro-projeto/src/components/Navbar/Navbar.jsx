@@ -8,7 +8,7 @@ class Navbar extends React.Component{
             <header>
                 <nav id="navbar">
                     <div className="nav-brand">
-                        <img src={foguete} alt="" />
+                        <img className="logo" src={foguete} alt="" />
                         <h1>Space Flight News</h1>
                     </div>
                     <ul className="nav-list">
