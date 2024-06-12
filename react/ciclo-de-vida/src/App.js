@@ -13,7 +13,7 @@ export class  App extends React.Component {
 
         <button onClick={()=>{
           this.setState({showCounter: !this.state.showCounter})
-        }}>Mostrar contador</button>
+        }}>{this.state.showCounter ? 'Remover contador': 'Mostrar contador'}</button>
       </div>
     )
   }
