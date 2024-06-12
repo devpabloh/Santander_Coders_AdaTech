@@ -9,9 +9,9 @@ export class Article extends React.Component{
                 <img src={DesignDashboard} alt="" className="imgDesignDashBoard" />
 
                 <div className="article-infos">
-                    <h2>Designing Dashboards</h2>
-                    <h3>Nasa</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, tempore recusandae quisquam qui dicta, sapiente at repellat veritatis cumque quos ab dignissimos maiores dolores porro quidem, sint eos impedit quasi.</p>
+                    <h2>{this.props.title}</h2>
+                    <h3>{this.props.provider}</h3>
+                    <p>{this.props.description}</p>
                 </div>
             </article>
         )
