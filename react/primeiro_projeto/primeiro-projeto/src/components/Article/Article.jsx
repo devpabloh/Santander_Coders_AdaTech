@@ -1,10 +1,11 @@
 import React from "react";
+import DesignDashboard from "../../assets/images/dashboard.png"
 
 export class Article extends React.Component{
     render(){
         return (
             <article id="article">
-                <img src="" alt="" />
+                <img src={DesignDashboard} alt="" />
 
                 <div className="article-infos">
                     <h2>Designing Dashboards</h2>
