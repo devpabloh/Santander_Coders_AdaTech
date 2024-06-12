@@ -14,7 +14,13 @@ class App extends React.Component {
     return (
       <>
         <Navbar/>
+        <section className="articles">
         <Article/>
+        <Article/>
+        <Article/>
+        <Article/>
+
+        </section>
       </>
     )
   }
